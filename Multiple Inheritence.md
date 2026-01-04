@@ -24,6 +24,27 @@ To write a Python program to calculate **Add, Sub & Division** using **Multiple 
    - Display the results of the three operations.
 
 ## 💻 Program 
-Add code here
+```
+class py:
+    def __init__ (self,a,b):
+        self.a=a
+        self.b=b
+    def inh(self) :
+        print(a)
+        print(b)
+        if c>80:
+            print("Eligible for Module Exam")
+        else:
+            print("Not Eligible for Module Exam")
+
+
+a=input()
+b=int(input())
+c=int(input())
+obj=py(a,b)
+obj.inh()
+
+```
 ## Output Example
+<img width="787" height="306" alt="image" src="https://github.com/user-attachments/assets/206bf10f-3362-437c-ae6f-3b4b56672b61" />
 
