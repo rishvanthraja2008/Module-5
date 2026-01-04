@@ -26,7 +26,26 @@ To write a Python program that uses multilevel inheritance to get and display a 
    - Print all details using class methods.
 
 ## Program
-Add code here
+```
+class py:
+    def __init__ (self,a,b):
+        self.a=a
+        self.b=b
+    def inh(self)    :
+        print(a)
+        print(b)
+        if c>12000:
+            print("Valid Student")
+        else:
+            print("Invalid Student")
 
+
+a=input()
+b=int(input())
+c=int(input())
+obj=py(a,b)
+obj.inh()
+```
 ## Sample Output
+<img width="678" height="295" alt="image" src="https://github.com/user-attachments/assets/0e44fa40-f40f-49b4-9208-b264ca22665b" />
 
