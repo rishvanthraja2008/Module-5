@@ -31,6 +31,23 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-Add code here
+```
+class employee:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def display(self):
+        if self.a>500000:
+            print(f"({self.a}, '{self.b}')  Valid Employee")
+        else:
+            print(f"({self.a}, '{self.b}')  Invalid Employee")
+    
+
+a=int(input())
+b=input()
+obj=employee(a,b)
+obj.display()
+```
 ## Sample Output
+<img width="930" height="248" alt="image" src="https://github.com/user-attachments/assets/9eedbfd2-a0be-4940-8de8-b3f858d660e1" />
 
